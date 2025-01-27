@@ -32,6 +32,7 @@
   protoc object_detection/protos/*.proto --python_out=.
   copy object_detection\packages\tf2\setup.py .
   python -m pip install .
+  pip install ipykernel
   ```
 - This will install ~50 packages used for TensorFlow Object Detection.
 - Any other libraries that may be missed can be installed using the !pip install {library} command.
