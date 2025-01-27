@@ -5,7 +5,7 @@
 ### Visual Studio Code C++ Build Tools:
 - Download from [Visual Studio](https://visualstudio.microsoft.com/vs/community/).
 - Once the setup wizard is complete, it will open a workloads page.
-- Make sure "Desktop Development for C++" is checked off, and click download (~1.94 gigabytes).
+- Make sure "Desktop Development for C++" is checked, and click download (~1.94 gigabytes).
 
 ### Install Protocol Buffers from the Protoc Github:
 - Download the x64 version for your operating system from [GitHub](https://github.com/protocolbuffers/protobuf/releases) (e.g., `protoc.{X}.{OS}.zip`).
