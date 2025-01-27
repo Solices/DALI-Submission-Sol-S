@@ -22,7 +22,7 @@
   cd models
   cd research
   protoc object_detection/protos/*.proto --python_out=.
-  copy object_detection/packages/tf2/setup.py .
+  copy object_detection\packages\tf2\setup.py .
   python -m pip install .
   ```
 - This will install ~50 packages used for TensorFlow Object Detection.
