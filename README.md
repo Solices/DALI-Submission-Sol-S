@@ -16,7 +16,7 @@
 ### Install TensorFlow Object Detection Repository:
 - Open Command Prompt with administrative privileges.
 - I recommend creating a virtual environment for the libraries.
-- Run the following commands:
+- Run the following commands in the file path where you want to run the code:
   ```sh
   git clone https://github.com/tensorflow/models
   cd models
