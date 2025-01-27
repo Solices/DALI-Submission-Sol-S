@@ -22,7 +22,7 @@
 - Your PATH should look something like this: `C:\Additional Programs\protoc\bin`.
 
 ### Install TensorFlow Object Detection Repository:
-- Open Command Prompt with administrative privileges.
+- Open Anaconda Prompt with administrative privileges.
 - I recommend creating a virtual environment for the libraries.
 - Run the following commands in the file path where you want to run the code:
   ```sh
