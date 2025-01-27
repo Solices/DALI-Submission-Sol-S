@@ -26,7 +26,7 @@
   python -m pip install .
   ```
 - This will install ~50 packages used for TensorFlow Object Detection.
-- If there is an error building wheel, use Anaconda3-2019.03-Windows-x86_64.exe (https://repo.anaconda.com/archive/) from the official Anaconda downloads.
+- If there is an error building wheel, use Anaconda3-2019.03-Windows-x86_64.exe (https://repo.anaconda.com/archive/) from the official Anaconda downloads, making sure to add it to path!
 - Any other libraries that may be missed can be installed using the !pip install {library} command.
 
 # Main Idea
