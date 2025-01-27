@@ -40,6 +40,9 @@
 - This will install ~50 packages used for TensorFlow Object Detection.
 - Any other libraries that may be missed can be installed using the !pip install {library} command.
 
+  ### I have tested this on a New Computer:
+ - If you have any questions, feel free to email me!
+
 # Main Idea
 In order for these scientists to rapidly count the number of barnacles within these images, fine-tuning a pre-trained model could suffice to estimate the number of barnacles across many of these platforms.
 
