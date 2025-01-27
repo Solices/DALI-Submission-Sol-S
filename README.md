@@ -23,9 +23,11 @@
 
 ### Install TensorFlow Object Detection Repository:
 - Open Anaconda Prompt with administrative privileges.
-- I recommend creating a virtual environment for the libraries.
+- Creating a virtual environment for the libraries.
 - Run the following commands in the file path where you want to run the code:
   ```sh
+  pip install virtualenv
+  virtualenv dalitest
   git clone https://github.com/tensorflow/models
   cd models
   cd research
@@ -33,6 +35,7 @@
   copy object_detection\packages\tf2\setup.py .
   python -m pip install .
   pip install ipykernel
+  python -m ipykernel install --user --name=dalitest
   ```
 - This will install ~50 packages used for TensorFlow Object Detection.
 - Any other libraries that may be missed can be installed using the !pip install {library} command.
